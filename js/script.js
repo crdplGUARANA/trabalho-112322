@@ -1,0 +1,1 @@
+const toHome = ()=>window.location.href="./home.html"

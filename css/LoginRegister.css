@@ -1,0 +1,97 @@
+html,
+a {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+#fundo{
+  position: fixed;
+  width: 110vw;
+  height: 110vh;
+  top: 0px;
+  left: -20px;
+  background: url("../img/ce30527f09291d9b9fde52badc0bdff0.gif");
+  background-size: cover;
+}
+body {
+  display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+  }
+  .form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+  }
+  
+  .form-signin .checkbox {
+    font-weight: 400;
+  }
+  
+  .form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+  .form-signin input[type="Name"] {
+    margin-bottom: -1px;
+    border-radius: 10px;
+  }
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-radius: 10px;
+  }
+  
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+
+.form{
+    position: absolute;
+    width: 90vw;
+    height: 75vh;
+    left: 5vw;
+    top: 17vh;
+    background: #00000023;
+    border-radius: 15px;
+}
+.form div{
+  margin: 20px;
+}
+#buttomSign{
+  border-radius: 20px;
+}
+#accountButton{
+    border-radius: 15px;
+    color: #515151; 
+    background-color: #ffffff;
+}
+footer{
+  width: 100vw;
+  height: 4vh;
+  background: #00000073;
+}
+footer p{
+  margin-left: 25vw;
+  color: #ffffff;
+}
+header{
+  width: 100vw;
+  height: 10vh;
+  background: #00000073;
+}
+header h1{
+  color: #ffffff;
+}
+header h5{
+  color: #ffffff;
+}
+header div{
+    display: inline-block;
+  }
+

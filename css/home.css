@@ -1,0 +1,72 @@
+@font-face {
+    font-family:'Australia';
+    src:url("../fonte/Australia/Australia\ Custom.otf");
+}
+a {
+  color: #000000 !important;
+  text-decoration: none !important;
+}
+body {
+    height: 100%;
+    width: 100 vw;
+    height: 200 vh;
+    background: url("../img/ce30527f09291d9b9fde52badc0bdff0.gif");
+    background-size: cover;
+  }
+  #blur{
+    position: fixed;
+    width: 110vw;
+    height: 110vh;
+    top: 0px;
+    left: -20px;
+    filter: blur(10px);
+    background: url("../img/ce30527f09291d9b9fde52badc0bdff0.gif");
+    background-size: cover;
+    z-index: -1;
+  }
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+header{
+  width: 100vw;
+  height: 10vh;
+  background: #00000073;
+}
+header h1{
+  color: #ffffff;
+}
+header h5{
+  color: #ffffff;
+}
+header div{
+    display: inline-block;
+  }
+section{
+    background-color: rgba(231, 231, 231, 0.815);
+    margin-top: 10vh;
+}
+#destinos{
+    font-family: Australia;
+    background-color: rgba(231, 231, 231, 0);
+}
+footer{
+    width: 100vw;
+    height: 4vh;
+    background: #00000073;
+  }
+  footer p{
+    margin-left: 25vw;
+    color: #ffffff;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  
+}
