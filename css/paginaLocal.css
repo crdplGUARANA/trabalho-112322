@@ -43,6 +43,7 @@ header{
   header div{
       display: inline-block;
     }
+
 footer{
     width: 100vw;
     height: 4vh;
@@ -51,4 +52,14 @@ footer{
     footer p{
         margin-left: 25vw;
         color: #ffffff;
+}
+
+#voltar{
+    position: fixed;
+    bottom:20vh;
+    z-index: 9999;
+    right: 0px;
+}
+body{
+    width:100vw;
 }

@@ -8,8 +8,8 @@ a {
 }
 body {
     height: 100%;
-    width: 100 vw;
-    height: 200 vh;
+    width: 100vw;
+    height: 200vh;
     background: url("../img/ce30527f09291d9b9fde52badc0bdff0.gif");
     background-size: cover;
   }
@@ -48,7 +48,10 @@ header div{
   }
 section{
     background-color: rgba(231, 231, 231, 0.815);
-    margin-top: 10vh;
+    margin-top: 5vh;
+}
+#pesquisa{
+  margin-top: 10vh;
 }
 #destinos{
     font-family: Australia;
@@ -69,4 +72,10 @@ footer{
       font-size: 3.5rem;
     }
   
+}
+#voltar{
+  position: fixed;
+  bottom:20vh;
+  z-index: 9999;
+  right: 0px;
 }
