@@ -29,6 +29,8 @@ document.querySelector('#addPessoa').onclick = () => {
     div.classList.add("mt-3")
     div.classList.add("p-3")
     div.classList.add("flex-row")
+    div.classList.add("flex-wrap")
+    div.classList.add("justify-content-center")
     div.classList.add("bg-secondary")
     div.classList.add("bg-opacity-25")
     let img = document.createElement('img')
